@@ -1,6 +1,7 @@
-dist
-dist-*
-cabal-dev
+# Cabal / GHC build artifacts
+dist/
+dist-*/
+dist-newstyle/
 *.o
 *.hi
 *.hie
@@ -8,16 +9,20 @@ cabal-dev
 *.chs.h
 *.dyn_o
 *.dyn_hi
-.hpc
-.hsenv
-.cabal-sandbox/
-cabal.sandbox.config
+
+# Profiling / HPC
+.hpc/
 *.prof
 *.aux
 *.hp
 *.eventlog
-.stack-work/
+
+# Cabal local config / env
 cabal.project.local
 cabal.project.local~
-.HTF/
+.cabal-sandbox/
+cabal.sandbox.config
 .ghc.environment.*
+
+# Stack
+.stack-work/
