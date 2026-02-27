@@ -2,6 +2,7 @@
 dist/
 dist-*/
 dist-newstyle/
+cabal-dev
 *.o
 *.hi
 *.hie
@@ -12,6 +13,7 @@ dist-newstyle/
 
 # Profiling / HPC
 .hpc/
+.hsenv
 *.prof
 *.aux
 *.hp
@@ -23,6 +25,11 @@ cabal.project.local~
 .cabal-sandbox/
 cabal.sandbox.config
 .ghc.environment.*
+.HTF/
 
 # Stack
 .stack-work/
+
+# Rust (wtf/)
+/wtf/target/
+**/*.rs.bk

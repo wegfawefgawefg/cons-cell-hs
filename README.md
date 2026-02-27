@@ -1,9 +1,15 @@
-# cons-cell-hs
+# more-haskell-introduction
 
-Educational toy Haskell project for experimenting with custom cons cells,
-laziness, and infinite structures.
+Educational toy project for experimenting with custom cons cells, recursion,
+laziness, and infinite-style structures.
 
-Worked on: 2024-02-08
+## Rough timeline
+
+Based on git history and file timestamps, this project appears to have been worked on mostly on **February 7, 2024** (local machine time), roughly between **~6:00 AM and ~9:10 AM**.
+
+- `git` initial commit: `2024-02-07 05:57:58 -0600`
+- `app/Main.hs` modified around: `2024-02-07 08:51 -0600`
+- `wtf/src/main.rs` modified around: `2024-02-07 09:07 -0600`
 
 ## Requirements
 
@@ -33,7 +39,13 @@ Refresh package index if Cabal warns it is old:
 cabal update
 ```
 
+## What you were doing (likely)
+
+You were doing language-learning exercises around custom linked lists and recursion, then pushing into higher-order/lazy-style patterns.
+
+- In Haskell (`app/Main.hs`): defining a custom `List`, implementing list operations, doubling elements, and testing repeated function composition with finite prefixes.
+- In Rust (`wtf/src/main.rs`): recreating a similar custom `List`, adding iterator-style traversal, and mirroring the same `take/range/double` style experiments as a cross-language comparison.
+
 ## Notes
 
 - Build artifacts are created under `dist-newstyle/`.
-- This project currently uses `base >=4.15 && <4.20` in `cons-cell-hs.cabal`.

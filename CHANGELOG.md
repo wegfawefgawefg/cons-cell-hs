@@ -1,4 +1,4 @@
-# Revision history for showJacobConsCell
+# Revision history for more-haskell-introduction
 
 ## 0.1.0.0 -- YYYY-mm-dd
 
